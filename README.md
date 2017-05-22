@@ -12,12 +12,11 @@ You need to have installed the following:
 - [```Vagrant```][vagrant] (in order to run the vagrant commands)
 
 ### Structure
-|--- Vagranfile
-|--- config
-|--- scripts
 
 The ```Vagranfile``` is the our main file, which contains all the commands that will be executed when we start or reload our Vagrant system.
+
 The ```config``` folder contains all the necessary configuration files (e.g. Apache2 configuration file, Varnish configuration file etc.) which will be synced to the guest machine (the VM we are about to create).
+
 The ```scripts``` folder contains all the necessary scripts in order to install our packages, update our system, restart services after we apply changes etc.
 
 ### Run for the first time
